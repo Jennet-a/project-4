@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 </head>
 <body>
    <p class="text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
@@ -42,7 +42,7 @@
             <img src="./icons/sony.png" class="icon" width="128" height="26">
             <img src="./icons/go.png" width="40" height="40">
         </div>
-        <div class="cat" id="lenovo2" style="display: none">
+        <div class="cat" id="lenovo2">
             <img src="./icons/lenovo.png" class="icon" width="108" height="32">
             <img src="./icons/go.png" width="40" height="40">
         </div>
@@ -60,5 +60,57 @@
         <img src="./icons/expand2.png" width="24" height="24" id="icon2" style="display: none">
         <button id="exp" onclick="showAll()">Показать все</button>
       </div>
+    <div class="mobile swiper-container">
+        <div class="mob-catalog swiper-wrapper">
+            <div class="cat-item swiper-slide">
+                    <img src="./icons/lenovo.png" class="item" width="108" height="32">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/samsung.png" class="item" width="116" height="38">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/apple.png" class="item" width="44" height="44">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/sonic.png" class="item" width="128" height="21">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/bosch.png" class="item" width="128" height="28">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/hp.png" class="item" width="52" height="52">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/acer.png" class="item" width="94" height="24">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/sony.png" class="item" width="128" height="26">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/lenovo.png" class="item" width="108" height="32">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/samsung.png" class="item" width="116" height="38">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>
+                <div class="cat-item swiper-slide">
+                    <img src="./icons/apple.png" class="item" width="44" height="44">
+                    <img src="./icons/go.png" width="40" height="40">
+                </div>   
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <script src="./script.js"></script>
+
 </body>
 </html>

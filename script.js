@@ -23,3 +23,14 @@ function showAll() {
     btn.innerHTML="Показать все";
    }
 }
+const swiper = new Swiper('.swiper-container', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    simulateTouch: true,
+    touchRatio: 1,
+    touchAngle: 45,
+    grabCursor: true,
+    slidesPerView: 'auto',
+  });
